@@ -7,4 +7,4 @@ This is a word frequency finder, implemented in C. It finds the frequency of wor
 4. To display the most frequent word in the file.
 5. To exit.
 
-I have provided 2 text files in order to test this.
+I have provided 2 text files in order to test the program.
