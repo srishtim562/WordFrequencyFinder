@@ -1,9 +1,10 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<ctype.h>
-#include<string.h>
-#include<fcntl.h>
-#include<unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+#include <fcntl.h>
+#include <unistd.h>
+
 struct node
 {
 	char word[100];
@@ -147,8 +148,6 @@ void disp_mostfreqall(struct node *list[])
 			max_full_list = max;
 	}
 
-	max_full_list;
-
 	for(i=0; i<26; i++)
 	{
 		p = list[i];
@@ -162,7 +161,6 @@ void disp_mostfreqall(struct node *list[])
 			p = p->next;
 		}
 	}
-
 }
 
 
@@ -250,9 +248,7 @@ int main(int argc, char* argv[])
 			default: printf("\nInvalid choice\n");
 
 		}
-
 	}
 
 	return 0;
-	
 }
